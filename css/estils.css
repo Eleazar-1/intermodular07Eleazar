@@ -1,0 +1,60 @@
+/* estils intermodular 02 web */
+
+html{
+    background-color:#738384;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+#cap{
+    width:80%;
+    margin: 10px auto;
+    padding:20px;
+    border:solid 1px black;
+    text-align:center;
+    background-color:rgb(219, 19, 52);
+    border-radius: 20px;
+}
+
+#cap h1{
+    width:60%;
+    margin: 10px auto;
+    padding:20px;
+    border:solid 1px red;
+    color:red;
+    font-weight: bold;
+    text-align:center;
+    background-color:white;
+    border-radius: 20px;
+}
+#principal{
+    width:80%;
+    margin: 10px auto;
+    padding:20px;
+    border:solid 1px black;
+    text-align:center;
+    background-color:rgb(219, 19, 52);
+    border-radius: 20px;
+}
+
+#principal p.paragraf{
+    width:60%;
+    margin: 10px auto;
+    padding:20px;
+    border:solid 1px red;
+    color:red;
+    font-weight: bold;
+    text-align:center;
+    background-color:white;
+    border-radius: 20px;
+}
+
+.imatge{
+    width:400px;
+    margin:20px;
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+}
+.imatge:hover {
+    transform: scale(1.05); 
+}
